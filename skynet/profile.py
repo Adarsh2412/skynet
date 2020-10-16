@@ -1,9 +1,9 @@
-'''Tools to help time python code.'''
+#Tools to help time python code.
 
 import timeit
 
 class BasicTimer(object) :
-    '''A basic timer for callables, using timeit.'''
+    #A basic timer for callables, using timeit.
 
     def __init__(self, function, setup = '', runs = 1000) :
         self.function = function
